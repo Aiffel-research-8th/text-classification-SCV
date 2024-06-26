@@ -14,8 +14,6 @@ for file in file_list:
             content += line[4:]
             
         conversation.append(content)
-        
-
 
 data = pd.DataFrame({
     "conversation": conversation
